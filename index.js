@@ -21,10 +21,13 @@ function scuberGreetingForFeet(feet){
 function switchOnCharmFromTip(tip){
   if  (tip === 'generous') {
           return  'Thank you so much.';
-   } else (tip === 'not as generous'); {
+   } else if (tip === 'not as generous'); {
      return 'Thank you.';
-  } if  (tip === 'not as generous');{
-  
-  return ' bye';
+   
+  } else {
+    return 'Bye.';
    }
-}
+  }
+
+   
+  
